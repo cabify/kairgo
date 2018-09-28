@@ -32,7 +32,7 @@ type ResponseEnroll struct {
 			Confidence  float64 `json:"confidence"`
 			SubjectID   string  `json:"subject_id"`
 			Width       int     `json:"width"`
-			FaceID      int     `json:"face_id"`
+			FaceID      string  `json:"face_id"`
 		} `json:"transaction"`
 	} `json:"images"`
 }
